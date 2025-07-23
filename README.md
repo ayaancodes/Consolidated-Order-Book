@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project implements a **real-time, consolidated order book** aggregator for multiple trading exchanges, built in response to a proprietary specification from DRW. It consumes a sequence of market data feed updates from individual exchanges and maintains a unified, sorted order book that reflects the best bid/offer levels across the market.
+This project implements a **real-time, consolidated order book** aggregator for multiple trading exchanges, built in response to a proprietary specification. It consumes a sequence of market data feed updates from individual exchanges and maintains a unified, sorted order book that reflects the best bid/offer levels across the market.
 
 Updates from individual exchanges are processed incrementally, with each action triggering a corresponding update to the consolidated book ("Exchange C").
 
